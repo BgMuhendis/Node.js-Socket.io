@@ -11,7 +11,7 @@ body {
 }
 
 #chat-window{
-    height:700px;
+    height:670px;
     overflow-y: auto;
 }
 #output p{
@@ -20,7 +20,7 @@ body {
     
 }
 #output p:nth-child(even){
-    background-color:#f2f2f2;
+    background-color:#ebfffc;
 }
 
 #feedback p {
@@ -31,4 +31,3 @@ body {
     color: #00d1b2;
     
 }
-
