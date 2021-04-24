@@ -3,7 +3,10 @@ const message = document.getElementById('message');
 const submitBtn = document.getElementById('submitBtn');
 const output = document.getElementById('output');
 const feedback = document.getElementById('feedback');
-const userName = prompt("What is your name");
+const subtitle =  document.querySelector(".subtitle");
+const userName = prompt("What is your name ?");
+subtitle.innerHTML="<strong>Name:</strong> "+userName;
+subtitle.textContent.color="#00d1b2";
 submitBtn.addEventListener('click', ()=>{
     socket.emit('chat',{
         message:message.value,
